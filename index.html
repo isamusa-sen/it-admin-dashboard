@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IT Admin Panel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>IT Admin Dashboard</h1>
+    <p>by Isa Naziroglu</p>
+
+    <form id="taskForm">
+      <label>Задача:</label>
+      <input type="text" id="taskInput" placeholder="Например: Создать пользователя в AD" required />
+      <button type="submit">Добавить задачу</button>
+    </form>
+
+    <h2>Текущие задачи</h2>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
